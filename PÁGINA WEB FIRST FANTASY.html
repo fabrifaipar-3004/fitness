@@ -8,6 +8,8 @@
 	<meta name="description" content="Tienda de fitness First Fantasy: ropa, accesorios, y equipamiento para entrenar con estilo.">
 </head>
 <body>
+		<!-- Primer bloque llamado Header -->
+		<div id="Header" style="background-color: lightgreen" align="center">
 	<header class="site-header">
     <div class="container header-grid">
 		<nav class="main-nav">
@@ -15,10 +17,13 @@
         <a href="productos.html">Productos</a>
         <a href="contacto.html">Contacto</a>
 	</nav>
+	</div>
 </div>
 </header>
-	<main>
-    <section class="hero">
+<main>
+		<!-- Segundo bloque llamado Content -->
+		<div id="Content" style="background-color: lightblue" align="center">
+	<section class="hero">
 	<div class="container hero-grid">
         <div>
         <h1>First Fantasy</h1>
@@ -28,6 +33,7 @@
             <a class="btn btn-outline" href="#about">Sobre nosotros</a>
 	  </p>
 	</div>
+</div>
         <div class="hero-image">
           <img src="https://www.sanitas.es/media/cen/imagen/grande/img_noticia-entrenamiento-funcional/img-entrenamiento-funcional.jpg" alt="Entrenamiento" loading="lazy">
 	</div>
@@ -35,6 +41,8 @@
 </section>
 
 <section id="about" class="container about">
+		<!-- Tercer bloque llamado Content -->
+		<div id="Content" style="background-color: yellow" align="right">
 	<h2>Nuestra filosofía</h2>
 	<p>En First Fantasy creemos que el fitness es para todos. Diseñamos prendas cómodas y resistentes, con estilo urbano y materiales pensados para rendir.</p>
 	<div class="features-grid">
@@ -50,6 +58,7 @@
           <h3>Sostenibilidad</h3>
           <p>Iniciativas para reducir residuos y seleccionar proveedores responsables.</p>
 	</div>
+</div>
 </div>
 </section>
 
@@ -90,7 +99,9 @@
 	</div>
  </header>
 
-	<main class="container">
+<main class="container">
+		<!-- Cuarto bloque llamado Content -->
+		 <div id="Content" style="background-color: pink" align="left">
     <h1>Tienda</h1>
     <p class="lead">Selecciona tus productos y añádelos al carrito.</p>
 
@@ -105,11 +116,14 @@
       <button id="checkout" class="btn btn-cta">Finalizar compra</button>
       <button id="close-cart" class="btn btn-outline">Cerrar</button>
    </aside>
+   </div>
 </main>
 <script src="js/app.js"></script>
 </body>
 
 <main class="container contact-page">
+		<!-- Quinto bloque llamado Content -->
+		 <div id="Content" style="background-color: red" align="left">
     <h1>Contacto</h1>
     <p>¿Tienes dudas? Escríbenos y te responderemos en breve.</p>
 
@@ -134,8 +148,13 @@
 <footer class="site-footer">
 	<div class="container footer-grid">
 	<div>
-		<div>
-        <p>Síguenos: Instagram | Facebook | TikTok</p>
+		<div class="container-header-grid">
+        <p>Síguenos:</p>
+		<nav class="main-nav">
+		<a href="instagram.html">Instagram</a>
+		<a href="facebook.html">Facebook</a>
+		<a href="tiktok.html">TikTok</a>
+		</nav>
 		</div>
         <p>© <span id="year-3"></span> First Fantasy. Todos los derechos reservados</p>
 	</div>		
