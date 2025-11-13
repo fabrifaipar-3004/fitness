@@ -8,9 +8,9 @@
 	<meta name="description" content="Tienda de fitness First Fantasy: ropa, accesorios, y equipamiento para entrenar con estilo.">
 </head>
 <body>
+<header class="site-header">
 		<!-- Primer bloque llamado Header -->
 		<div id="Header" style="background-color: red" align="center">
-	<header class="site-header">
     <div class="container header-grid">
 		<nav class="main-nav">
         <a href="index.html">Inicio</a>
@@ -87,17 +87,12 @@
 </section>
 </main>
 
-	<footer class="site-footer">
-    <div class="container footer-grid">
-</div>
-</footer>
-
-	<header>
+<header>
 	<script src="js/app.js"></script>
 		<div class="actions">
         <button id="cart-btn" class="btn">Carrito (<span id="cart-count">0</span>)</button>
 	</div>
- </header>
+</header>
 
 <main class="container">
 		<!-- Cuarto bloque llamado Content -->
@@ -109,17 +104,15 @@
       <!-- Productos inyectados por JS -->
    </section>
 
-    <aside id="cart" class="cart hidden">
+<aside id="cart" class="cart hidden">
       <h3>Tu carrito</h3>
       <div id="cart-items"></div>
       <p class="cart-total">Total: €<span id="cart-total">0.00</span></p>
       <button id="checkout" class="btn btn-cta">Finalizar compra</button>
       <button id="close-cart" class="btn btn-outline">Cerrar</button>
    </aside>
-   </div>
+</div>
 </main>
-<script src="js/app.js"></script>
-</body>
 
 <main class="container contact-page">
 		<!-- Quinto bloque llamado Content -->
@@ -142,8 +135,10 @@
         <button type="reset" class="btn btn-outline">Limpiar</button>
       </div>
       <p id="contact-feedback" class="feedback"></p>
+</div>
 </form>
 </main>
+</body>
 
 <footer class="site-footer">
 		<!-- Sexto bloque llamado Content -->
