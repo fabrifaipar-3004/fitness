@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>First Fantasy - Fitness</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Tienda de fitness First Fantasy: ropa, accesorios, y equipamiento para entrenar con estilo.">
+</head>
+<body>
+<header class="site-header">
+		<!-- Primer bloque llamado Header -->
+		<div id="Header" style="background-color: red" align="center">
+    <div class="container header-grid">
+		<nav class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="contacto.html">Contacto</a>
+	</nav>
+	</div>
+</div>
+</header>
+<main>
+		<!-- Segundo bloque llamado Content -->
+		<div id="Content" style="background-color: orange" align="center">
+	<section class="hero">
+	<div class="container hero-grid">
+        <div>
+        <h1>First Fantasy</h1>
+          <p class="lead">Potencia tu mejor versión — ropa, accesorios y equipamiento para tu entrenamiento diario.</p>
+          <p>
+            <a class="btn btn-cta" href="#about">Ver productos</a>
+            <a class="btn btn-outline" href="#about">Sobre nosotros</a>
+	  </p>
+	</div>
+</div>
+        <div class="hero-image">
+          <img src="https://www.sanitas.es/media/cen/imagen/grande/img_noticia-entrenamiento-funcional/img-entrenamiento-funcional.jpg" alt="Entrenamiento" loading="lazy">
+	</div>
+</div>
+</section>
+
+<section id="about" class="container about">
+		<!-- Tercer bloque llamado Content -->
+		<div id="Content" style="background-color: yellow" align="center">
+	<h2>Nuestra filosofía</h2>
+	<p>En First Fantasy creemos que el fitness es para todos. Diseñamos prendas cómodas y resistentes, con estilo urbano y materiales pensados para rendir.</p>
+	<div class="features-grid">
+        <div class="feature">
+          <h3>Calidad</h3>
+          <p>Materiales duraderos y confort para tus entrenamientos más intensos.</p>
+	</div>
+        <div class="feature">
+          <h3>Diseño</h3>
+          <p>Estética moderna inspirada en el deporte urbano.</p>
+	</div>
+        <div class="feature">
+          <h3>Sostenibilidad</h3>
+          <p>Iniciativas para reducir residuos y seleccionar proveedores responsables.</p>
+	</div>
+</div>
+</div>
+</section>
+
+	<section class="container highlight">
+      <h2>Productos destacados</h2>
+		<div class="products-row">
+		<article class="product-card">
+		<img src="https://down-co.img.susercontent.com/file/c9f68805ac438dbf9e42aec1367f483e" alt="Camiseta deportiva" loading="lazy">
+		<h4>Camiseta Pro</h4>
+		<p class="price">€24.99</p>
+		<p><a class="btn" href="https://goodmecar.click/product_details/110872236.html">Ver</a></p>
+	</article>
+		<article class="product-card">
+		<img src="https://ortoprime.es/cdn/shop/products/mancuernas-juego-para-casa-ortoprime_573x432.jpg?v=1664624230" alt="Mancuernas" loading="lazy">
+		<h4>Mancuernas ajustables</h4>
+		<p class="price">€69.99</p>
+		<p><a class="btn" href="https://ortoprime.es/products/set-de-mancuernas-tonificacion-muscular?srsltid=AfmBOorXDLOkecB0yQemKZwS9bh81lDJEeI5KOl7zOUEdPDLurNTD6_3">Ver</a></p>
+	</article>
+        <article class="product-card">
+          <img src="https://m.media-amazon.com/images/I/619Sq-ZRb9L._AC_SX569_.jpg" alt="Leggings" loading="lazy">
+          <h4>Leggings Flex</h4>
+          <p class="price">€39.99</p>
+          <p><a class="btn" href="https://www.amazon.es/YHWW-Leggings-Ajustados-Cintura-Costuras/dp/B09L5PNHVN">Ver</a></p>
+	</article>
+	</div>
+</section>
+</main>
+
+<header>
+	<script src="js/app.js"></script>
+		<div class="actions">
+        <button id="cart-btn" class="btn">Carrito (<span id="cart-count">0</span>)</button>
+	</div>
+</header>
+
+<main class="container">
+		<!-- Cuarto bloque llamado Content -->
+		 <div id="Content" style="background-color: lightgreen" align="left">
+    <h1>Tienda</h1>
+    <p class="lead">Selecciona tus productos y añádelos al carrito.</p>
+
+    <section id="products-list" class="products-grid">
+      <!-- Productos inyectados por JS -->
+   </section>
+
+<aside id="cart" class="cart hidden">
+      <h3>Tu carrito</h3>
+      <div id="cart-items"></div>
+      <p class="cart-total">Total: €<span id="cart-total">0.00</span></p>
+      <button id="checkout" class="btn btn-cta">Finalizar compra</button>
+      <button id="close-cart" class="btn btn-outline">Cerrar</button>
+</aside>
+</div>
+</main>
+
+<main class="container contact-page">
+		<!-- Quinto bloque llamado Content -->
+		 <div id="Content" style="background-color: lightblue" align="left">
+    <h1>Contacto</h1>
+    <p>¿Tienes dudas? Escríbenos y te responderemos en breve.</p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <label>Nombre
+        <input type="text" id="name" required>
+      </label>
+      <label>Correo
+        <input type="email" id="email" required>
+      </label>
+      <label>Mensaje
+        <textarea id="message" rows="6" required></textarea>
+      </label>
+		<div class="form-actions">
+        <button type="submit" class="btn btn-cta">Enviar</button>
+        <button type="reset" class="btn btn-outline">Limpiar</button>
+      </div>
+      <p id="contact-feedback" class="feedback"></p>
+</div>
+</form>
+</main>
+</body>
+
+<footer class="site-footer">
+		<!-- Sexto bloque llamado Content -->
+		 <div id="Content" style="background-color: purple" align="center">
+	<div class="container footer-grid">
+	<div>
+		<div class="container-header-grid">
+        <p>Síguenos:</p>
+		<nav class="main-nav">
+		<a href="instagram.html">Instagram</a>
+		<a href="facebook.html">Facebook</a>
+		<a href="tiktok.html">TikTok</a>
+		</nav>
+		</div>
+        <p>© 2025 <span id="year-3"></span> First Fantasy. Todos los derechos reservados</p>
+	</div>		
+</div>
+</div>
+</footer>
+</html>
