@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda nombre="First Fantasy" categoria="Fitness">
+    <inventario>
+        <producto id="camiseta-pro">
+            <nombre>Camiseta Pro</nombre>
+            <precio moneda="EUR">14.99</precio>
+            <descripcion>Materiales duraderos y confort para entrenamientos intensos.</descripcion>
+            <imagen>https://down-co.img.susercontent.com/file/c9f68805ac438dbf9e42aec1367f483e</imagen>
+            <stock>45</stock>
+            <categoria>Ropa</categoria>
+        </producto>
+
+        <producto id="mancuernas-ajustables">
+            <nombre>Mancuernas ajustables</nombre>
+            <precio moneda="EUR">9.99</precio>
+            <descripcion>Set de mancuernas para tonificación muscular en casa.</descripcion>
+            <imagen>https://ortoprime.es/cdn/shop/products/mancuernas-juego-para-casa-ortoprime_573x432.jpg?v=1664624230</imagen>
+            <stock>12</stock>
+            <categoria>Equipamiento</categoria>
+        </producto>
+
+        <producto id="leggings-flex">
+            <nombre>Leggings Flex</nombre>
+            <precio moneda="EUR">14.99</precio>
+            <descripcion>Leggings ajustados de cintura alta sin costuras.</descripcion>
+            <imagen>https://m.media-amazon.com/images/I/619Sq-ZRb9L._AC_SX569_.jpg</imagen>
+            <stock>30</stock>
+            <categoria>Ropa</categoria>
+        </producto>
+
+        <producto id="whey-protein">
+            <nombre>Whey Protein</nombre>
+            <precio moneda="EUR">20.00</precio>
+            <descripcion>Proteína de suero de leche sabor chocolate.</descripcion>
+            <imagen>https://m.media-amazon.com/images/I/71OsEAdPuZL._AC_SY300_SX300_QL70_FMwebp_.jpg</imagen>
+            <stock>100</stock>
+            <categoria>Suplementos</categoria>
+        </producto>
+
+        <producto id="esterilla-yoga">
+            <nombre>Esterilla</nombre>
+            <precio moneda="EUR">12.00</precio>
+            <descripcion>Esterilla Lotus Pro de alta densidad para yoga y estiramientos.</descripcion>
+            <imagen>https://i0.wp.com/latiendadeyoga.es/wp-content/uploads/2022/03/yy942lx-esterialla-yoga-lotus-colores-con-antracita-la-tienda-de-yoga.jpg?resize=470%2C470&amp;ssl=1</imagen>
+            <stock>25</stock>
+            <categoria>Accesorios</categoria>
+        </producto>
+    </inventario>
+
+    <contacto>
+        <email>info@firstfantasy.com</email>
+        <redes>
+            <red nombre="Instagram">instagram.html</red>
+            <red nombre="Facebook">facebook.html</red>
+        </redes>
+    </contacto>
+</tienda>
