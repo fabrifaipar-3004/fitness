@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - First Fantasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<div class="logo-container" align="center">
+    <img src="imagenes/firstfantasyartwork.png" alt="Logotipo de First Fantasy Fitness Evolution" class="logo">
+	</div>
+</header>
+    <header class="site-header" style="background-color: tomato; padding: 20px;" align="center">
+        <nav class="main-nav">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="contact-page" style="padding: 20px;">
+            <h1>Contacto</h1>
+            <p>¿Tienes dudas? Escríbenos y te responderemos en breve.</p>
+            <form id="contact-form" class="contact-form">
+                <label>Nombre
+                    <input type="text" id="name" required>
+                </label>
+                <label>Correo
+                    <input type="email" id="email" required>
+                </label>
+                <label>Teléfono
+                    <input type="tel" id="phone" name="phone" placeholder="123-45-67-89">
+                </label>
+                <label>Mensaje
+                    <textarea id="message" rows="6" required></textarea>
+                </label>
+                <div class="form-actions">
+                    <button type="submit" class="btn">Enviar</button>
+                    <button type="reset" class="btn">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="newsletter-section" style="padding: 20px; text-align: center;">
+            <h2>Suscríbete a nuestra Newsletter</h2>
+            <p>Recibe ofertas exclusivas y novedades de entrenamiento.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Tu correo electrónico" required style="padding: 10px; width: 250px;">
+                <button type="submit" class="btn">Suscribirme</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer" style="background-color: rebeccapurple; padding: 20px; color: white;" align="center">
+        <p>© 2026 First Fantasy. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

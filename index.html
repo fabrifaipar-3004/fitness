@@ -8,6 +8,11 @@
 	<meta name="description" content="Tienda de fitness First Fantasy: ropa, accesorios, y equipamiento para entrenar con estilo.">
 </head>
 <body>
+	<header>
+		<div class="logo-container" align="center">
+			<img src="imagenes/firstfantasyartwork.png" alt="Logotipo de First Fantasy Fitness Evolution" class="logo">
+		</div>
+</header>
 <header class="site-header">
 		<!-- Primer bloque llamado Header -->
 		<div id="Header" style="background-color: tomato" align="center">
@@ -16,24 +21,24 @@
         <a href="index.html">Inicio</a>
         <a href="productos.html">Productos</a>
         <a href="contacto.html">Contacto</a>
+		<a href="registro_usuario.html">Registro</a>
 	</nav>
+	<audio controls>
+		<source src="jump.ogg" type="audio/ogg">
+  <source src="jump.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
 		<form action="manejador.html" enctype="multipart/form-data" method="post">
 		<p>LOGIN</p>
-		Usuario:
-		<input type="text" name="usuario"> <br>
+		Usuario: <input type="text" name="usuario"> <br>
 		Contraseña: <input type="password" name="pass"> <br>
 		<input type="submit" value="Entrar">
 		<input type="submit" value="Olvidé la contraseña">
 		</form>
-		<audio controls>
-  <source src="jump.ogg" type="audio/ogg">
-  <source src="jump.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
 	</div>
 </div>
 </header>
-<main>
+<main class="container">
 		<!-- Segundo bloque llamado Content -->
 		<div id="Content" style="background-color: orange" align="center">
 	<section class="hero">
@@ -47,10 +52,13 @@ Your browser does not support the audio element.
 	  </p>
 	</div>
 </div>
+
+<section id="Content" class="container">
+<!-- Tercer bloque llamado Content -->
         <div class="hero-image">
-			<img src="https://cuidateplus.marca.com/sites/default/files/styles/natural/public/cms/2024-07/grupomuscular.jpg.webp?itok=ZkhRl1Us" alt="Entrenamiento">
-          <img src="https://www.sanitas.es/media/cen/imagen/grande/img_noticia-entrenamiento-funcional/img-entrenamiento-funcional.jpg" alt="Entrenamiento">
-		  <img src="https://www.gymshark.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fwl6q2in9o7k3%2F1VQzifAdCEZGxIrI1L64a4%2Ff388b0ee8a02445eb98deac1c6262151%2FHeadless_Desktop_-_25524537.jpeg&w=1920&q=85" alt="Entrenamiento">
+			<img src="imagenes/curl_man.webp" alt="Entrenamiento">
+          <img src="imagenes/squat_woman.jpg" alt="Entrenamiento">
+		  <img src="imagenes/blackman.jfif" alt="Entrenamiento">
 	</div>
 </div>
 </section>
@@ -77,35 +85,37 @@ Your browser does not support the audio element.
 </div>
 </section>
 
-<section id="product" class="container highlight">
+<main class="container">
+		<!-- Cuarto bloque llamado Content -->
+<section id="product" class="container highlight" style="background-color: lightgreen">
      <h2>Productos destacados</h2>
 		<div class="products-row">
 		<article class="product-card">
-		<img src="https://down-co.img.susercontent.com/file/c9f68805ac438dbf9e42aec1367f483e" alt="Camiseta deportiva" loading="lazy">
+		<img src="imagenes/shirt.jfif" alt="Camiseta deportiva">
 		<h4>Camiseta Pro</h4>
 		<p class="price">€14.99</p>
 		<p><a class="btn" href="https://goodmecar.click/product_details/110872236.html">Ver</a></p>
 	</article>
 		<article class="product-card">
-		<img src="https://ortoprime.es/cdn/shop/products/mancuernas-juego-para-casa-ortoprime_573x432.jpg?v=1664624230" alt="Mancuernas" loading="lazy">
+		<img src="imagenes/dumbells.webp" alt="Mancuernas">
 		<h4>Mancuernas ajustables</h4>
 		<p class="price">€9.99</p>
 		<p><a class="btn" href="https://ortoprime.es/products/set-de-mancuernas-tonificacion-muscular?srsltid=AfmBOorXDLOkecB0yQemKZwS9bh81lDJEeI5KOl7zOUEdPDLurNTD6_3">Ver</a></p>
 	</article>
         <article class="product-card">
-          <img src="https://m.media-amazon.com/images/I/619Sq-ZRb9L._AC_SX569_.jpg" alt="Leggings" loading="lazy">
+          <img src="imagenes/leggings.jpg" alt="Leggings" loading="lazy">
           <h4>Leggings Flex</h4>
           <p class="price">€14.99</p>
           <p><a class="btn" href="https://www.amazon.es/YHWW-Leggings-Ajustados-Cintura-Costuras/dp/B09L5PNHVN">Ver</a></p>
 	</article>
 		<article class="product-card">
-		<img src="https://m.media-amazon.com/images/I/71OsEAdPuZL._AC_SY300_SX300_QL70_FMwebp_.jpg" alt="Proteína en polvo" loading="lazy">
+		<img src="imagenes/whey_protein.webp" alt="Proteína en polvo" loading="lazy">
 		<h4>Whey Protein</h4>
 		<p class="price">€20.00</p>
 		<p><a class="btn" href="https://www.amazon.com/-/es/Optimum-Nutrition-Standard-prote%C3%ADna-chocolate/dp/B002DYIZH6/ref=zg_bs_g_6973717011_d_sccl_1/143-6581520-3711918?psc=1">Ver</a></p>
 	</article>
 		<article class="product-card">
-		<img src="https://i0.wp.com/latiendadeyoga.es/wp-content/uploads/2022/03/yy942lx-esterialla-yoga-lotus-colores-con-antracita-la-tienda-de-yoga.jpg?resize=470%2C470&ssl=1" alt="Esterillas" loading="lazy">
+		<img src="imagenes/mat.webp" alt="Esterillas" loading="lazy">
 		<h4>Esterilla</h4>
 		<p class="price">€12.00</p>
 		<p><a class="btn" href="https://latiendadeyoga.es/producto/esterilla-de-yoga-lotus-pro/">Ver</a></p>
@@ -117,58 +127,36 @@ Your browser does not support the audio element.
 <header>
 	<script src="script.js"></script>
 		<div class="actions">
-		<image src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAADCwsIzMzP4+PjHx8fQ0NCvr685OTlWVlb8/PwKCgq5ubnv7+/g4ODr6+uXl5eEhIRhYWEiIiKfn59paWk/Pz9MTEzk5OSNjY3Ozs5ZWVlycnKtra3t7e0ZGRl7e3spKSk8PDykpKRNTU0TExOIiIgeHh5nZ2fY2NgtLS2RkZGh0Y8lAAALk0lEQVR4nO1dfV/qPAy9wHibm6IocAF1oKDo9/9+jzp87s6WNOnW0cFv508ta87WNmmSpn/+tGjRokWLFi1atDgbhCx8S+YEN5PVdsRhfpdEC98SVsSwI2LV9y1kFTzKBL8wO9/vuFAR/MKjb0nL4q+WYWfvW9SS+FAz7Pz1LWs56Al2OpFvYUvhyobijW9py+DOhmHiW9oy6Now7Jylzni1YXiWi008s2B45VvaUgg/LShe+5a2JAYRi3tkeLaWjQHXwHDsW5w68JBluAt8i1MDcPMx8C1ODcBh+ulbnDrQyzJ89S1NHUjgIz75FqcGoGHX9S1ODYiB4a1vceoATMSeb2nqwAQ+4lluEgUsL95wC4Hhu29x6sA7UPQtTR3ADcbBtzg1AN3G977FqQHB5Rtu6yzDXexbnBoQwTBd+hanBuBEvHzDbe5bmjqwh494iTuoPjA8zxCNAGCY+JamDsyzDM/T9S0ADbdzdX2bcACGL77FqQHhc5bh+Gnxi5sjYkCQ4qzSjsBwy2KX4jnFNMUmRS/FMftolsUc8DpOsUpxd8TDEesUyRG3KfZ/U3xOUtyneIm6pWaRIrGoQbja2ztb1Ik3TcHeOsQy8i2yLXq2YzWRn9k0WFK0y2loBuwM6Fh+YONgGdA9u4nYsd0jTOQHNg4jK4YD3+KWgZ3r07e0ZTCxYvguP7BxsFtrXnyLWwLPVgzRcNsvrr9xAAyOWMLCe7vsE0hTkrpgSYwej+bz0Zg+2tb7H0sbjf/39a9d/munp0b7CjL17DbroYXHDbJwjAnUYNKvTC1hqduxezLwKVm6I+AlXhld37fZpsY4ADA0ThuYJR9sM0hd3xgJFYCub+MhDJBmZ2qpZwjjmX9rkGz5YCRUgIXrG92PppZ6hrCWJ1wrjOfa+ltg/TBORMykMuUW6xmCv48NtmNM3jZLDV3fpm30DbQ0DWg1wxhcRazFiV5B220wjr2hoSWGHE0GsJrhE3TOmmOgLOxDLNBJYmo5zrY05fupGaJDk/040Mo+TAZTwbhEgkI05W+oGeJKzrXC92AfYdG7viF73DRY1Axh98amZqFP0P74hN71DW/8w+AUVjMEI4LVczB2RvbO6PBKKw/uJg3vUs0QlhB2VwQKzVLf/wCtX0NDVIiG8axmuMs25NQhGiWm1V4lj0nP4dc2NFQzVPWMHsEyyU34jkxaYJNtaMgy0jLEnjk/IUzWcglqYNfODA1BISZ8Oy1D/DqcOqyo77+Brm/DCgJv06AQtQzhVESPWSQDkK5cfhoaboasb5Boyy/bWoagYO+YRmh2lztkj67vhG+oG1V6hneaftEiKRma3WafYVCpqC54h4CWIZzJ5tThCoRTMsoDX5NhIkI7fp+mZQiP4+xNaFT2PCgaK4asb2U7JUPccDIWRFWzm5LcYBeBXuF9z0qGKisQ7ZHSpwrw+DffDvTKmm2mZAgL14ZZuKqa3Ueg65ufYLDb2bLNlAxh+nOqfKp7qRK0Wd84ZHTNeIZg8jPqECUrfzAkhHWbN9xw5rBDRskQjEDGOVHd7D4CDTdW08W6/pQMQQ0zuyIQbFrhQC86TLphQOMJ9k8R0ywE627MtVo8y32G4EWqcigbh/tbjwMwnHKtYHXYca2wyswH3QjaVDoWYlOGwRsq1bbSFybyiEoZkX35+d7BR980COUOvKNiWau53INvVDxPcAY5CxUPZ13LPXiGZXS7CN8ERJQ3u49gs76bgsqnCRqf9V35RMiN3IdXTKufAm244WbMPNIB4wNDKqur348UjZaQ/TCjH4SOXjKJDPuyS0kkoXN9QyPGFFZlfcm9oZvNwUFeTIxImFYQ8mO2M5odMPZGOtowg9nFYWyYiJxbCyJBjOtBwxBHKSk+eADLersBKtc3zDHGtaphiEkBlHsiAB+Ak2qy6GdiFCzYr8yL1TCciG3QjnRzjBceyXwfXODooaxhCJ5e0iDDvYCbmgga17cm/qRhCJOeDLioMygsoKlUFyraaBiCt4ocgrBqVza7U6hc3+Buo72cCoaoLKgXhb5ZR4d40fXNxCXAGUC/BQVD1OaUUR2JLcoAXd+0h1kRf1IwBHX4TE1nUEvOylfmXN9kG0gvoNWFgiEslGTOHjiDnVWywh0UbbHgckQ2UTAUE/9xGjowu4+ASUZPRJxBpEJUMBTTMKrldvNA1zdpuOF3JuNPCobwKqmFEmyeK3elV/DNkbogBj1FzlWZYTyVHgLBRYflczDFilwpQ7BGyKiszBAHAjEGA3gFLksgweaIjkjKmUwyQ9H2wwYu64+iuUvqWVCIpPwyQzGFHeVwWRof3x1pssA2klSIMkNYR6iYEhZbq0CoiI4oHfhz3qiBLDOU8jjRfiyT281D3rPIJqXMEFZKQp2jvi+T281DzvqWFaLMEFZKYj2ux+ym5CezvsWtncgQN5nEa8TzZtUYFQDqjrSJIQ+GegciQ3yNRDreJvt/Lnu4LND1Ta3TcCySsgpEhuh8Ltq2+I3dmd1U79Qkh6WecmmLDGF/sikyxFwv14X/0e58I2xeWAaoFHvRqw/viBiEMA8cudl+EcTXuYInk+UAcUB7ozvI44CH3Ar/HxxAWTwccv9+xGwpl+VjD59Wl/CcCO7uTnvZyr35gKvqsY0Nck/d8Ltp4vBM4aZO9cDqrrbTwkkBwyan7TmJOS3lfrzBSbyiycUF507GaIOzTOZOnPkNrmjmZm/f3Lp7G0cetlu5Ky+YPTqqcxsTmvAtxZUKNZDbbdf37hwXeWOtF13aRXO5a1ldb6f9I4Dt7iXeVYIu7ku8IeHy7/HAVDbf0tQB8Khc5P1r6sJIZwswSt98S1MH0DF4acr+G7j5vcQbIDCB7hKvBsbEis74AinmNk+jy1P6GLL+wmwSdZsAdxcWNtdL8+loyjT4foSRo7BaQ+Mx3zBVVrNAk4/HOkozuZd78gVHHxEPdzQKV67ulWpuaM1ZCH8l9+UFdpcEGLGXe/MBRydlftCfyv2dHk4T2sIGRmhce2/DYcMsuDq2q4vu7fvr7Hgv3mj7QXS7GVHj+WOkBfHj3ahH/HVe3+Wv4S+Kt5atoqcgCOKosPau//3KiGLKwPP9Iv565KEQA3OmCw3Ihxan/1LoBvkPqVVceevi31SL8/9ymxlMIheXes3uZsJxKXHwPEcu7TC31p3gOnS8Kil3fD3AZUmZ5YpRhHwYIUexdKFLNbC/fC4t7knedMMUZ1shvxhLObk8R0ICKSSCtDrlDNO3eOkP+lTcJSUykPLly5yXN39CByX0rSBW24YYvsr+EO8kgZlYexwFeqPeJ0TIVUMKRyExdeVaEi4B+42EaAAGgeoAHdSloM43Q5ShSjFPFeAbJkQDOEBk/w2pG8LA5Kn9G0Jcisq4B41oulPhf2CSIKHvwMgw1LV3AzRpiPcJ/1dtBPCkCLH8wrBwUBnKjKUgDmoTnRceflK0g9CoSyoSEIHdFYP8aLbpTCy0Zgs6Fh2b9YczzSVuMXys9GzeG3+Uy+V1F5zhkKtLi2ZiLt6hPG2dC3WhpynAHTdxHso18pG37A4pn/GnPX2V2+OvMwvYIudScHlEnUM+aHP3O24O+Tto1ZU38/6uze8KFhc8YfUPUuocTe9zGA0nRbeKuhz8U+Gnu/VjFL2MC393FbMwItwU+mWgf6ba93yaeHskC/IDi2MfgTKr2PXRWA66mI1VNXjlW3NZRsEEKg28gJ1dhEgVzHNTgE4DzYkhy2LwocK1fgpN8Qt5UFn7NZ/EKNCpJmEKiWKJe0Nuns2PPC1B6exeKZdfYKwAf8ohmmLBy7Mtu+QZ1OLpFpkMuJL0FU4vDKh40xfe6/d0k4g/CWH21fIIIiJ493oKY5RBMBzD6ZPXYXU/0XK9yT5y9NdtmRZ7xMtJcvc6m98lk76jsRRcv9w+jGfz1Xof+ab3P04QuGzRokWLFi1atGhxAfgPKsa6YIR3wG0AAAAASUVORK5CYII=" style="width:5%">
+		<image src="imagenes/cart.png" style="width:5%">
         <button id="cart-btn" class="btn">Carrito (<span id="cart-count">0</span>)</button>
 	</div>
 </header>
 
 <main class="container">
-		<!-- Cuarto bloque llamado Content -->
-		 <div id="Content" style="background-color: lightgreen" align="left">
-    <h1>Tienda</h1>
-    <p class="lead">Selecciona tus productos y añádelos al carrito.</p>
-
-    <section id="products-list" class="products-grid">
-      <!-- Productos inyectados por JS -->
-	  <script src="script.js"></script>
-   </section>
-
-<aside id="cart" class="cart hidden">
-      <h3>Tu carrito</h3>
-      <div id="cart-items"></div>
-      <p class="cart-total">Total: €<span id="cart-total">0.00</span></p>
-      <button id="checkout" class="btn btn-cta">Finalizar compra</button>
-      <button id="close-cart" class="btn btn-outline">Cerrar</button>
-</aside>
-</div>
-</main>
-
-<main class="container contact-page">
 		<!-- Quinto bloque llamado Content -->
-		<div id="Content" style="background-color: skyblue" align="left">
-    <h1>Contacto</h1>
-    <p>¿Tienes dudas? Escríbenos y te responderemos en breve.</p>
+		<section id="tienda" class="container" style="background-color: lightblue; padding: 20px;">
+    <h1>Tienda</h1>
+    <p class="lead">Selecciona tus productos, la cantidad y aplica tu descuento.</p>
 
-    <form id="contact-form" class="contact-form" novalidate>
-      <label>Nombre
-        <input type="text" id="name" required>
-      </label>
-      <label>Correo
-        <input type="email" id="email" required>
-      </label>
-	  <label>Teléfono
-	  <input type="tel" id="phone" name="phone" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
-	  </label>
-      <label>Mensaje
-        <textarea id="message" rows="6" required></textarea>
-      </label>
-		<div class="form-actions">
-        <button type="submit" class="btn btn-outline">Enviar</button>
-        <button type="reset" class="btn btn-outline">Limpiar</button>
-      </div>
-      <p id="contact-feedback" class="feedback"></p>
-</div>
-</form>
+    <div class="shop-controls">
+        <label for="producto-select">Producto:</label>
+        <select id="producto-select">
+            <option value="14.99">Camiseta Pro - 14.99€</option>
+            <option value="9.99">Mancuernas - 9.99€</option>
+            <option value="14.99">Leggings Flex - 14.99€</option>
+            <option value="20.00">Whey Protein - 20.00€</option>
+            <option value="12.00">Esterilla - 12.00€</option>
+        </select>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" value="1" min="1" max="10" style="width: 50px;">
+
+        <label for="descuento">Código:</label>
+        <input type="text" id="descuento" placeholder="Ej: FIT2026">
+        
+        <button id="add-to-cart" class="btn">Añadir al carrito</button>
+    </div>
+</section>
 </main>
 </body>
 
@@ -184,18 +172,6 @@ Your browser does not support the audio element.
 		<a href="instagram.html">Instagram</a>
 		<a href="facebook.html">Facebook</a>
 		</nav>
-		<div class="container-header-grid">
-		<p>First Fantasy en otros idiomas:</p>
-		<nav class="main-nav">
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es&_x_tr_pto=wapp">English</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=fr&_x_tr_hl=es&_x_tr_pto=wapp">Français</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=it&_x_tr_hl=es&_x_tr_pto=wapp">Italiano</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=de&_x_tr_hl=es&_x_tr_pto=wapp">Deutsch</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=ja&_x_tr_hl=es&_x_tr_pto=wapp">日本語</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=pt-PT&_x_tr_hl=es&_x_tr_pto=wapp">Português</a>
-		<a href="https://fabrifaipar--3004-github-io.translate.goog/fitness/?_x_tr_sl=es&_x_tr_tl=ru&_x_tr_hl=es&_x_tr_pto=wapp">Русский</a>
-		</nav>
-		</div>
         <p>© 2026 <span id="year-3"></span> First Fantasy. Todos los derechos reservados.</p>
 	</div>		
 </div>
